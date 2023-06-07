@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;600;900 & family= Open+Sans:ital,wght@0,400;0,700;1,400 & display= trocar');
+:root {
+    --um-color-black: rgb(0, 0, 0);
+    --dois-color: rgb(7, 66, 66);
+    --tres-color: rgb(13, 43, 99);
+    --quatro-color-black: rgb(7, 245, 7);
+    --cinco-color: rgb(153, 10, 10);
+    --seis-color: rgb(98, 104, 16);
+    --sete-color: rgb(0, 89, 255);
+}
+
+* {
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+
+body{
+    background-color: var(--dois-color);
+    margin: 15px;
+    padding: 0;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color: aliceblue;
+}
+.container {
+    background-color: var(--um-color-black);
+    max-width: 640px;
+    margin: 25px auto;
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+
+
+
+}
+h1{
+    color: var(--cinco-color);
+}
+
+form input,form label,form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--dois-color);
+}
+
+
+form button {
+    border-radius: flex;
+    background-color: var(--dois-color);
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+
+}
+
+form button:hover {
+    background: var(--sete-color);
+}
+
+form button:active {
+    background-color: var(--quatro-color-black);
+}
+
+.paragrafo-resultado, .bad {
+    padding: 15px 20px;
+    
+}
+
+.bad {
+    background-color: rgb(223, 89, 89);
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
